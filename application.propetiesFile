@@ -1,1 +1,16 @@
 
+sts
+spring.datasource.url=jdbc:mysql://localhost:3306/microservice
+spring.datasource.username=root
+spring.datasource.password=rockey8895
+
+
+
+
+# Hibernate configuration
+spring.jpa.hibernate.ddl-auto=update
+spring.jpa.properties.hibernate.format_sql=true
+
+
+# Hibernate configuration
+spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.MySQL5InnoDBDialect
